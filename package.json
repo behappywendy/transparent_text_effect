@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.50.1"
+  },
+  "name": "transparent_text_effect",
+  "description": "It's the project for AJay, Wendy, Andy, Angela, Rex, Jiaxian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch scss/main.scss:style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behappywendy/transparent_text_effect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behappywendy/transparent_text_effect/issues"
+  },
+  "homepage": "https://github.com/behappywendy/transparent_text_effect#readme"
+}

@@ -1,0 +1,15 @@
+@use "../base/breakpoint";
+@use "../base/reset";
+@use "../component/container1";
+//use component
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
