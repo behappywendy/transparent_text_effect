@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  margin-bottom: 3px;
+  outline: 3px solid rgb(88, 74, 77);
+}
+
+/*# sourceMappingURL=style.css.map */
