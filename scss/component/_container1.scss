@@ -1,2 +1,37 @@
 @use "../base/breakpoint";
 @use "../base/reset";
+
+.container1 {
+  display: flex;
+  background-image: url("https://images.unsplash.com/photo-1589100534833-475e31a17b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+  background-size: 200px;
+  animation: move 1000s 1;
+  animation-timing-function: linear;
+  h2 {
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #fff;
+    mix-blend-mode: screen;
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20000px 0px;
+  }
+}
