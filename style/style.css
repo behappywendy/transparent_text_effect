@@ -52,6 +52,52 @@ body {
     background-position: 20000px 0px;
   }
 }
+.container2 {
+  position: relative;
+  background: url("https://s.yimg.com/ob/image/c192c8b6-aa3d-42ae-bd68-00e41b599c87.jpg");
+  animation: 2s ease-in alternate infinite carousel;
+}
+.container2 h2 {
+  text-align: center;
+  vertical-align: center;
+  line-height: 300px;
+  font-size: 100px;
+  background-color: white;
+  mix-blend-mode: screen;
+}
+.container2 h2::before {
+  content: "";
+  height: 250px;
+  display: block;
+  background: darkmagenta;
+}
+.container2 h2::after {
+  content: "";
+  height: 250px;
+  display: block;
+  background: turquoise;
+}
+.container2 .push {
+  position: absolute;
+  left: -300px;
+  top: 50%;
+  bottom: 50%;
+}
+@keyframes carousel {
+  1% {
+    transform: translate(0px);
+    background-position-x: 0px;
+  }
+  50% {
+    transform: translate(100px);
+    background-position-x: 100px;
+  }
+  100% {
+    transform: translate(200px);
+    background-position-x: 200px;
+  }
+}
+
 body {
   display: flex;
   flex-direction: column;
