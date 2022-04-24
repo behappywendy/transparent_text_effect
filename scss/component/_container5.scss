@@ -1,0 +1,28 @@
+.container5 {
+  background: url("https://cdn.pixabay.com/photo/2016/11/29/05/01/beach-1867436_960_720.jpg");
+  background-size: auto 450px;
+  animation: horizontal-shift 4s ease-out infinite alternate;
+
+  position: relative;
+  text-align: center;
+
+  h2 {
+    position: absolute;
+    inset: 0 0 0 0;
+    background: white;
+    mix-blend-mode: screen;
+    vertical-align: middle;
+
+    font-size: 250px;
+    line-height: 100vh;
+  }
+}
+
+@keyframes horizontal-shift {
+  from {
+    background-position: center 95%;
+  }
+  to {
+    background-position: center -20%;
+  }
+}
