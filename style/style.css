@@ -99,6 +99,38 @@ body {
   }
 }
 
+.container3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container3 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container3 h2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rem;
+  font-weight: 700;
+  font-family: impact;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s;
+  mix-blend-mode: multiply;
+}
+
 .container4 {
   background: url("https://cdn.pixabay.com/photo/2016/11/19/09/46/ocean-1838340_1280.jpg") center/150vh;
   animation: textclip 30s linear infinite;
@@ -226,7 +258,7 @@ section {
 
 section {
   margin-bottom: 3px;
-  outline: 3px solid #584a4d;
+  outline: 3px solid rgb(88, 74, 77);
 }
 
 /*# sourceMappingURL=style.css.map */
