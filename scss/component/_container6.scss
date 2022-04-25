@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.container6 {
+  position: relative;
+  overflow: hidden;
+  perspective: 230px;
+  transform-style: preserve-3d;
+  &_mask {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    text-align: center;
+    line-height: 100vh;
+    color: #000;
+    text-shadow: 0 0 3px #555, 0 0 10px #ccc, 0 0 20px #ddd;
+    font-family: "Lato", sans-serif;
+    font-size: 350px;
+    font-weight: 900;
+    background-color: #fff;
+    mix-blend-mode: screen;
+  }
+}
+
+.album {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  animation: 5000ms album ease-in-out alternate infinite;
+  &_img {
+    width: 25%;
+    height: 25%;
+    padding: 2px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      vertical-align: middle;
+    }
+  }
+}
+
+@keyframes album {
+  0% {
+    transform: translateX(-11%);
+  }
+  100% {
+    transform: translateX(11%);
+  }
+}
