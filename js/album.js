@@ -5,7 +5,7 @@ for (let i = 1; i <= 15; i++) {
   const imgBox = document.createElement("div");
   imgBox.className = "album_img";
   const img = document.createElement("img");
-  img.src = `../images/cat-${i}.jpg`;
+  img.src = `./images/cat-${i}.jpg`;
   imgBox.appendChild(img);
   fragment.appendChild(imgBox);
 }
