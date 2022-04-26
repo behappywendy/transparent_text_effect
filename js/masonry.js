@@ -1,6 +1,7 @@
+const container6 = document.querySelector(".container6");
 const fragment = document.createDocumentFragment();
 const album = document.querySelector(".album");
-for (let i = 1; i <= 16; i++) {
+for (let i = 1; i <= 15; i++) {
   const imgBox = document.createElement("div");
   imgBox.className = "album_img";
   const img = document.createElement("img");
@@ -9,3 +10,6 @@ for (let i = 1; i <= 16; i++) {
   fragment.appendChild(imgBox);
 }
 album.appendChild(fragment);
+const album2 = album.cloneNode(true);
+album2.classList.add("album2");
+container6.appendChild(album2);
