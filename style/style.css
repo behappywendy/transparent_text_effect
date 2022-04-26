@@ -139,8 +139,9 @@ body {
   color: #000;
   text-shadow: 0 0 3px #555, 0 0 10px #ccc, 0 0 20px #ddd;
   font-family: "Lato", sans-serif;
-  font-size: 350px;
+  font-size: 400px;
   font-weight: 900;
+  letter-spacing: 10px;
   background-color: #fff;
   mix-blend-mode: screen;
 }
@@ -150,12 +151,12 @@ body {
   inset: 0;
   display: flex;
   flex-wrap: wrap;
-  animation: 5000ms album ease-in-out alternate infinite;
+  align-content: center;
+  animation: 20s album linear infinite;
 }
 .album_img {
-  width: 25%;
-  height: 25%;
-  padding: 2px;
+  width: 20%;
+  height: 20%;
 }
 .album_img img {
   width: 100%;
@@ -164,12 +165,25 @@ body {
   vertical-align: middle;
 }
 
+.album2 {
+  animation: 20s album2 linear infinite;
+  transform: translateX(100%);
+}
+
 @keyframes album {
   0% {
-    transform: translateX(-11%);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(11%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes album2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
 body {
