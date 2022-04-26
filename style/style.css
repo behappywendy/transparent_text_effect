@@ -98,6 +98,33 @@ body {
   }
 }
 
+.container4 {
+  background: url("https://cdn.pixabay.com/photo/2016/11/19/09/46/ocean-1838340_1280.jpg") center/150vh;
+  animation: textclip 30s linear infinite;
+  animation-timing-function: linear;
+}
+.container4 h2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 10rem;
+  font-weight: bold;
+  color: black;
+  background: white;
+  mix-blend-mode: screen;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+@keyframes textclip {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 600px 0px;
+  }
+}
 .container5 {
   background: url("https://cdn.pixabay.com/photo/2016/11/29/05/01/beach-1867436_960_720.jpg");
   background-size: auto 450px;
