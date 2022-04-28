@@ -129,6 +129,7 @@ body {
   mix-blend-mode: multiply;
 }
 
+<<<<<<< HEAD
 .container4 {
   background: url("https://cdn.pixabay.com/photo/2016/11/19/09/46/ocean-1838340_1280.jpg") center/150vh;
   animation: textclip 30s linear infinite;
@@ -156,6 +157,8 @@ body {
     background-position: 600px 0px;
   }
 }
+=======
+>>>>>>> a5dbf7999848331a8691045dcd26bcda57bc113e
 .container5 {
   background: url("https://cdn.pixabay.com/photo/2016/11/29/05/01/beach-1867436_960_720.jpg");
   background-size: auto 450px;
